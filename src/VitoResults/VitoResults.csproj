@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net9.0</TargetFrameworks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<Authors>Reza Ghadimi</Authors>
+		<Company>Reza Ghadimi</Company>
+		<PackageId>VitoResults</PackageId>
+		<Title>VitoResults</Title>
+		<Description>VitoResults is a fluent, lightweight results-handling library for .NET, designed to simplify success/error flows and enrich application messaging. Inspired by the Latin word "vita" (life), it brings clarity, vitality, and composability to your code.</Description>
+		<PackageTags>results;fluent;error-handling;success;dotnet;library</PackageTags>
+		<RepositoryUrl>https://github.com/reza-ghadimi/VitoResults</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/reza-ghadimi/VitoResults</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageIconUrl>https://github.com/reza-ghadimi/VitoResults/raw/main/logo.png</PackageIconUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="docs\logo.png" Pack="true" PackagePath="logo.png" />
+	</ItemGroup>
+
+</Project>
