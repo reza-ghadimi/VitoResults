@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net9.0</TargetFrameworks>
+		<TargetFrameworks>net5.0;net6.0;net7.0;net8.0;net9.0;</TargetFrameworks>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.1.0</Version>
+		<Version>1.2.0</Version>
 		<Authors>Reza Ghadimi</Authors>
 		<Company>Reza Ghadimi</Company>
 		<PackageId>VitoResults</PackageId>
